@@ -1,0 +1,128 @@
+/*-------- COMMON PART--------*/
+
+body {
+  background-color: lightgray;
+  font-family: "Poppins", sans-serif;
+}
+.btn {
+  padding: 10px 40px;
+  font-size: 1em;
+  background-color: rgb(224, 44, 109);
+  color: white;
+}
+.btn:hover {
+  background-color: lightskyblue;
+  color: red;
+}
+
+/*-------BANNER CONTAINER PART--------  */
+
+.banner-container {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(45, 37, 160);
+}
+.container-one {
+  width: 485px;
+  height: 380px;
+  margin-left: 156px;
+  color: white;
+}
+
+.container-one > h1 {
+  font-size: 4em;
+}
+.container-two {
+  width: 557px;
+  height: 438;
+  margin-left: 102px;
+}
+.banner-container img {
+  width: 557px;
+  height: 438px;
+}
+/* ----------PLAYER INFORMATION--- */
+
+.player-section {
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 70px;
+}
+.players-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+  grid-row-gap: 30px;
+}
+.player-detail {
+  align-items: center;
+  width: 330px;
+  height: 474px;
+  padding: 15px;
+  background-color: white;
+  border-radius: 5px;
+}
+.player-detail img {
+  width: 330px;
+  height: 276px;
+  border-radius: 5px;
+}
+
+/*------- MATCH SECTION-------  */
+.match-container {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 50px;
+}
+.match-container-one {
+  width: 485px;
+  height: 380px;
+  margin-left: 156px;
+}
+
+.match-container-one > h1 {
+  font-size: 3em;
+}
+.match-container-two {
+  width: 557px;
+  height: 438;
+  margin-left: 102px;
+}
+.match-container img {
+  width: 557px;
+  height: 438px;
+}
+
+/* ---------LOGO AND SOCIAL MEDIA PART---------  */
+.logo-social-container {
+  display: grid;
+  grid-template-columns: 1;
+  place-items: center;
+  grid-row-gap: 20px;
+}
+.logo-container-img {
+  width: 483px;
+  height: 110px;
+  margin-top: 120px;
+}
+
+.social-container {
+  font-size: 2em;
+}
+.logos {
+  padding: 20px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+/*------ FOOTER SECTION--------*/
+.footer-container {
+  margin-top: 30px;
+  text-align: center;
+}
