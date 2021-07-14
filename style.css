@@ -267,7 +267,7 @@ section > h1 {
   /*-------BANNER CONTAINER PART--------  */
   .banner-container {
     background-color: rgb(45, 37, 160);
-    width: 800px;
+    width: 900px;
     display: flex;
     flex-direction: column;
   }
@@ -302,7 +302,7 @@ section > h1 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     place-items: center;
-    grid-row-gap: 20px;
+    grid-row-gap: 30px;
   }
 
   /*------- MATCH SECTION-------  */
