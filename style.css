@@ -46,6 +46,11 @@ body {
   width: 557px;
   height: 438px;
 }
+
+.banner-container img:hover {
+  transform: scale(1.3) rotate(10deg);
+  transition: transform 1s ease-in-out;
+}
 /* ----------PLAYER INFORMATION--- */
 
 .player-section {
@@ -203,6 +208,7 @@ section > h1 {
     width: 350px;
     height: 320px;
   }
+
   /* ----------PLAYER INFORMATION--- */
   .player-section {
     margin-left: 40px;
