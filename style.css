@@ -11,8 +11,10 @@ body {
   color: white;
 }
 .btn:hover {
-  background-color: lightskyblue;
-  color: red;
+  background-color: lime;
+  color: black;
+  border-radius: 5px;
+  font-size: large;
 }
 
 /*-------BANNER CONTAINER PART--------  */
@@ -115,10 +117,17 @@ body {
 .social-container {
   font-size: 2em;
 }
+.social-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
 .logos {
-  padding: 20px;
+  padding: 10px;
+  margin-left: 10px;
   background-color: white;
-  border-radius: 50%;
+  border-radius: 20%;
+  color: gray;
 }
 
 /*------ FOOTER SECTION--------*/
