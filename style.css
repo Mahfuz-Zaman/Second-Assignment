@@ -58,7 +58,7 @@ body {
   grid-template-columns: repeat(3, 1fr);
   place-items: center;
   grid-row-gap: 30px;
-  grid-column-gap: 30px;
+  grid-gap: 30px;
 }
 .player-detail {
   align-items: center;
